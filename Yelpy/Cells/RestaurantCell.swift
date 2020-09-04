@@ -11,7 +11,8 @@ import UIKit
 class RestaurantCell: UITableViewCell {
 
     @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var RestaurantCell: UIImageView!
+    
+    @IBOutlet weak var Restaurantimage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
